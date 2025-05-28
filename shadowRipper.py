@@ -16,6 +16,9 @@ def show_banner():
     print(Fore.CYAN + Style.BRIGHT + banner)
     print(Fore.YELLOW + Style.BRIGHT + "💀 Welcome to ShadowRipper Port Scanner 💀")
     print(Fore.BLUE + "-" * 60)
+    print(Fore.GREEN + Style.BRIGHT + "🔗 Developed by: Jai Prakash")
+    print(Fore.GREEN + Style.BRIGHT + "🌐 LinkedIn   : www.linkedin.com/in/jai-prakash-saini-aa5a202b6")
+    print(Fore.BLUE + "-" * 60)
     time.sleep(1)
 
 
