@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 ▶️ 3. Run the Tool
 ```bash
-python shadowripper.py
+python3 shadowripper.py
 ```
 
 
