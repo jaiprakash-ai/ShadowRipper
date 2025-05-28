@@ -33,3 +33,52 @@ pip install -r requirements.txt
 ```bash
 python shadowripper.py
 ```
+
+
+---
+## 📊 Example Output
+
+🌍 Enter a domain (e.g., example.com): example.com
+           
+      [✔] Domain       : example.com
+      [✔] IP Address   : 93.184.216.34
+
+
+🌐 WHOIS Information:
+                
+    🧾 Network Name : EXAMPLE-NET
+    🏳 Country      : US
+    🏢 Organization : Example Org
+  
+
+[~] Scanning ports...
+
+[✔] Port    443 (https) is OPEN
+
+     └─ 🔐 SSL Certificate:
+        CN      : example.com
+        Issuer  : Let's Encrypt Authority X3
+        Expiry  : Mar 12 10:00:00 2025 GMT
+     └─ 🧾 Banner: No banner
+     
+
+[+] Total open ports found: 1
+
+---
+
+## 📁 Project Structure
+
+     ShadowRipper/
+     ├── shadowripper.py       # Main script
+     ├── requirements.txt      # Dependencies
+     ├── README.md             # You're here!
+## 🙌 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is licensed under the MIT License — feel free to use, modify, and distribute it.
+
+## 👨‍💻 Author
+Jai prakash (@jaiprakash-ai)
