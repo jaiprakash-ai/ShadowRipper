@@ -15,11 +15,21 @@
 
 ---
 
-## 📦 Requirements
+## 🚀 Installation & Usage
 
-Install dependencies using:
+#### 📥 1. Clone the Repository
 
 ```bash
+git clone https://github.com/jaiprakash-ai/ShadowRipper.git
+```
+```bash
+cd ShadowRipper
+```
+📦 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-
-
+```
+▶️ 3. Run the Tool
+```bash
+python shadowripper.py
+```
