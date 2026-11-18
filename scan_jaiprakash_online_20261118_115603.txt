@@ -1,0 +1,37 @@
+=================================================================
+                    SHADOWRIPPER SCAN REPORT
+=================================================================
+Target Domain  : jaiprakash.online
+IP Address     : 13.215.239.219
+Scan Timestamp : 2026-11-18 11:56:03
+
+-----------------------------------------------------------------
+1. WHOIS INFORMATION:
+   Network Name : AMAZON-SIN
+   Country      : None
+   Organization : N/A
+
+-----------------------------------------------------------------
+2. DISCOVERED SUBDOMAINS (1):
+   [✔] www.jaiprakash.online            -> 52.74.6.109
+
+-----------------------------------------------------------------
+3. HTTP SECURITY HEADERS ANALYSIS:
+   [PRESENT] Strict-Transport-Security    : HSTS - Enforces secure HTTPS connections
+   [MISSING] X-Frame-Options              : Clickjacking Protection
+   [MISSING] X-Content-Type-Options       : MIME-sniffing Protection
+   [MISSING] Content-Security-Policy      : XSS & Data Injection Prevention
+   [MISSING] X-XSS-Protection             : Cross-Site Scripting Filter
+   [MISSING] Referrer-Policy              : Controls referrer data leakage
+   [MISSING] Permissions-Policy           : Controls browser features/APIs access
+
+-----------------------------------------------------------------
+4. OPEN PORTS FOUND (2):
+   [+] Port    80 (http)
+       Banner : Server: Netlify
+   [+] Port   443 (https)
+       Banner : Server: Netlify
+       SSL CN : jaiprakash.online
+       Issuer : YE1
+       Expiry : Jan  2 04:37:22 2027 GMT
+=================================================================
